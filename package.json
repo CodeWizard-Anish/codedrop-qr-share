@@ -12,12 +12,14 @@
     "Other"
   ],
   "keywords": [
-    "qr",
-    "file transfer",
-    "send to phone",
-    "qr sharing",
-    "developer tools"
-  ],
+  "qr",
+  "file transfer",
+  "send to phone",
+  "airdrop alternative",
+  "share files",
+  "developer tools",
+  "qr sharing"
+],
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeWizard-Anish/codedrop-qr-share"
