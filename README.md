@@ -1,25 +1,33 @@
 # CodeDrop
 
-📦 **Instantly send files from VS Code to your phone using a QR code.**
+📦 **Tired of sending files from your dev environment to your phone?**  
+CodeDrop lets you upload any file from VS Code and access it instantly via QR.
 
-CodeDrop lets you transfer files from **Visual Studio Code → your phone in seconds**  
+⚡ **Right-click → Upload → Scan → Open on your phone**
+
 No login. No setup. No external tools.
 
-Just right-click → scan → download 🚀
+🔒 Files are temporarily stored on a secure backend and automatically deleted after expiry.
+
+---
+
+## 🎬 Demo
+
+![Demo](assets/DemoGif.gif)
 
 ---
 
 ## ✨ Features
 
-- 📱 Send files directly from VS Code to your phone
-- 📷 Instant QR code generation
-- ⚡ No setup required (no ngrok, no accounts)
-- ⏳ Files automatically expire after **10 minutes**
-- 📊 Live download tracking
+- 📱 Instantly send files from VS Code to your phone
+- 📷 QR code generated automatically after upload
+- ⚡ No setup — no ngrok, no accounts, no config
+- 🌐 Works over the internet (not limited to localhost)
+- ⏳ Files auto-delete after **10 minutes**
+- 🔒 Secure, unique download links
+- 📊 Track downloads in real time
 - 📈 Upload progress indicator
-- 🔒 Secure temporary download links
-- 🌐 Works over the internet
-- 📄 Supports all file types (up to 10MB)
+- 📄 Supports all file types (up to **10MB**)
 
 ---
 
@@ -28,25 +36,37 @@ Just right-click → scan → download 🚀
 1. Open **Visual Studio Code**
 2. Right-click any file in Explorer
 3. Click **CodeDrop: Send File to Phone**
-4. A QR code will appear
-5. Scan it using your phone
-6. Download instantly
+4. Scan the generated QR code
+5. Open/download instantly on your phone
 
 ---
+
 ## 📸 Screenshots
-![Click Option](assets/ClickView.png)
-![QR Code](assets/QRView.png)
-![Download Page](assets/PhoneView.jpeg)
 
-## 🎬 Demo
+![Right-click option inside VS Code](assets/ClickView.png)  
+![QR code generated instantly](assets/QRView.png)  
+![Download page on mobile](assets/PhoneView.jpeg)
 
-![Demo](assets/DemoGif.gif)
+---
+
+## 💡 Why CodeDrop?
+
+Most file-sharing workflows break your development flow.
+
+CodeDrop keeps everything inside VS Code:
+
+- 🚫 No switching apps  
+- 🚫 No manual uploads  
+- 🚫 No copy-pasting links  
+
+Just right-click and share instantly.
+
+---
 
 ## ⚙ Requirements
 
-No setup required ✅
-
-CodeDrop works out of the box using a secure backend service.
+No setup required ✅  
+Works out of the box using a secure backend service.
 
 ---
 
@@ -54,18 +74,18 @@ CodeDrop works out of the box using a secure backend service.
 
 CodeDrop is designed with safety in mind:
 
-- 🔑 Each file has a unique secure link
-- ⏳ Files auto-delete after **10 minutes**
-- 📉 File size limited to **10MB**
-- 📦 Files are not stored permanently
-- 🚫 No public file listing
+- 🔑 Each file has a unique secure link  
+- ⏳ Files auto-delete after **10 minutes**  
+- 📉 File size limited to **10MB**  
+- 📦 Files are not stored permanently  
+- 🚫 No public file listing  
 
 ---
 
 ## ⚠ Limitations
 
-- Maximum file size: **10MB**
-- Files expire after 10 minutes
+- Maximum file size: **10MB**  
+- Files expire after **10 minutes**  
 - Free backend may sleep after inactivity (first request may be slightly slow)
 
 ---
@@ -73,21 +93,19 @@ CodeDrop is designed with safety in mind:
 ## 📦 Release Notes
 
 ### 1.1.0
-
 🚀 Major upgrade
 
-- Removed ngrok dependency
-- Added cloud backend (no setup required)
-- Upload progress indicator
-- File expiry countdown
-- Download tracking
+- Removed ngrok dependency  
+- Added cloud backend (no setup required)  
+- Upload progress indicator  
+- File expiry countdown  
+- Download tracking  
 
 ### 1.0.0
-
 Initial release
 
-- QR-based file sharing
-- Temporary secure links
+- QR-based file sharing  
+- Temporary secure links  
 
 ---
 
@@ -102,6 +120,6 @@ Initial release
 Found a bug or have an idea?
 
 👉 Open an issue on GitHub  
-👉 Or share feedback in reviews
+⭐ If you find CodeDrop useful, consider leaving a review on the marketplace!
 
 Your feedback helps improve CodeDrop ❤️
